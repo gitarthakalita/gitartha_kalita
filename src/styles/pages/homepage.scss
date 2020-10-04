@@ -1,0 +1,110 @@
+.homepage {
+    height: 100%;
+    display: grid;
+    place-items: center;
+margin-left: 11rem;
+
+    .homepage__header {
+        height: 96vh;
+        width: 100%;
+        // background-color: #edf1f8;
+        // box-shadow: 0 0 0.35rem #d5d8dd;
+        margin-bottom: 1rem;
+        display: grid;
+        grid-template-columns: 3fr 2fr;
+        gap: 0.1rem;
+
+        .header--item {
+            background-color: #ffffff;
+
+        }
+
+        .header--content {
+            display: grid;
+            place-items: center;
+            height: 100%;
+            width: 100%;
+
+            .header--content__wrapper {
+                height: 80%;
+                width: 60%;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+
+                h1 {
+                    font-size: 5rem;
+                }
+
+                .content--identity {
+                    height: 12rem;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+
+                    h2 {
+                        font-size: 2.4rem;
+                        text-transform: capitalize;
+                        font-family: sans-serif;
+
+                        padding: 0.25rem 5rem;
+                    }
+                }
+
+                .content--description{
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    font-size: 2rem;
+                    font-family: sans-serif;
+                    border-right: 0.25rem solid blue;
+                    border-top: 0.25rem solid blue;
+                    padding: 3rem 0;
+                    box-shadow: 0 0 0.35rem #d5d8dd;
+                    div{
+                        padding-left: 5rem;
+                    }
+
+                    li{
+                        margin-bottom: 0.75rem;
+                    }
+                }
+
+                Button {
+                    width: 15rem;
+                    
+                    cursor: pointer;
+                    outline: none;
+                    font-size: 1.5rem;
+
+                    background-color: #c1f5d4;
+                    color: #000000;
+                    border: none;
+                    border-radius: 0.5rem;
+                    box-shadow: 0 0 0.35rem #d5d8dd;
+
+                    &:hover{
+                        background-color: #fff;
+                        color: #379277;
+                        transition: all 500ms ease;
+                    }
+                    transition: all 500ms ease;
+                }
+            }
+        }
+
+        .header--image {
+            height: 100%;
+            width: 100%;
+            background-image: url(/assets/store.svg);
+            background-size: 85%;
+            background-repeat: no-repeat;
+            background-position: 50%;
+            // transform: scaleX(-1);
+
+            box-shadow: 0 0 0.35rem #d5d8dd;
+            border-radius: 1rem;
+
+        }
+    }
+}
