@@ -4,7 +4,11 @@ import Layout from '../../src/components/Layout/Layout'
 const About = () => {
     return (
         <Layout>
-            About Page
+            <div className="aboutpage">
+                <div className="aboutpage__wrapper">
+                    
+                </div>
+            </div>
         </Layout>
     )
 }

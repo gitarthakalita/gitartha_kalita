@@ -8,6 +8,9 @@
     padding: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,500&family=Source+Serif+Pro:wght@400;600&display=swap');
+
+
 body {
 
     // margin-left: 11rem;
@@ -15,9 +18,26 @@ body {
     padding: 1rem;
 
     background-color: rgb(255, 255, 255);
+
+    font-family: 'Roboto', sans-serif;
+
+    ::selection{
+        background-color: #6bd68f;
+    }
 }
 
 
 ul{
     list-style: none;
+}
+
+
+.footer{
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    text-transform: capitalize;
 }

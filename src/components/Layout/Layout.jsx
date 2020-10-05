@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Footer from '../Footer/Footer';
 
 import Navbar from '../Navbar/Navbar';
 
@@ -16,6 +17,7 @@ const Layout = ({ title = 'Gitartha Kalita', children }) => {
             </Head>
             <Navbar />
             {children}
+            <Footer/>
         </div>
     )
 }

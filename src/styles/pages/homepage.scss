@@ -2,7 +2,7 @@
     height: 100%;
     display: grid;
     place-items: center;
-margin-left: 11rem;
+    margin-left: 11rem;
 
     .homepage__header {
         height: 96vh;
@@ -26,8 +26,8 @@ margin-left: 11rem;
             width: 100%;
 
             .header--content__wrapper {
-                height: 80%;
-                width: 60%;
+                height:90%;
+                width: 75%;
 
                 display: flex;
                 flex-direction: column;
@@ -35,10 +35,11 @@ margin-left: 11rem;
 
                 h1 {
                     font-size: 5rem;
+                    font-family: 'Source Serif Pro', serif;
                 }
 
                 .content--identity {
-                    height: 12rem;
+                    height: 15rem;
                     display: flex;
                     flex-direction: column;
                     justify-content: space-around;
@@ -46,49 +47,66 @@ margin-left: 11rem;
                     h2 {
                         font-size: 2.4rem;
                         text-transform: capitalize;
-                        font-family: sans-serif;
+                        
 
                         padding: 0.25rem 5rem;
                     }
                 }
 
-                .content--description{
+                .content--description {
                     display: grid;
                     grid-template-columns: 1fr 1fr;
                     font-size: 2rem;
                     font-family: sans-serif;
-                    border-right: 0.25rem solid blue;
-                    border-top: 0.25rem solid blue;
+                    border-right: 0.25rem solid rgb(36, 55, 138);
+                    border-top: 0.25rem solid rgb(36, 55, 138);
                     padding: 3rem 0;
                     box-shadow: 0 0 0.35rem #d5d8dd;
-                    div{
+
+                    div {
                         padding-left: 5rem;
+                        font-size: 3rem;
+
                     }
 
-                    li{
+                    li {
                         margin-bottom: 0.75rem;
                     }
+
+                    &:hover{
+                        transform: translateX(-2%);
+                        transition: inherit 500ms ease-in;
+                    }
+                
+                    transition: all 350ms ease-in;
+
                 }
 
                 Button {
                     width: 15rem;
-                    
+
                     cursor: pointer;
                     outline: none;
                     font-size: 1.5rem;
-
-                    background-color: #c1f5d4;
+                    font-weight: 600;
+                    
                     color: #000000;
                     border: none;
                     border-radius: 0.5rem;
                     box-shadow: 0 0 0.35rem #d5d8dd;
 
-                    &:hover{
-                        background-color: #fff;
-                        color: #379277;
-                        transition: all 500ms ease;
-                    }
+                   
+
                     transition: all 500ms ease;
+                }
+
+
+                .know-more{
+                    // background-color: #67F4AA;
+                    background-color: #6bd68f;
+                    
+                    margin-right: 5rem;
+                    
                 }
             }
         }
@@ -96,15 +114,46 @@ margin-left: 11rem;
         .header--image {
             height: 100%;
             width: 100%;
-            background-image: url(/assets/store.svg);
-            background-size: 85%;
-            background-repeat: no-repeat;
-            background-position: 50%;
+            // background-image: url(/assets/people.png);
+            
+            // background-image: url(/assets/loopd.webp);
+            // background-size: 100%;
+            // background-repeat: no-repeat;
+            // background-position: 50% 0%;
             // transform: scaleX(-1);
 
             box-shadow: 0 0 0.35rem #d5d8dd;
             border-radius: 1rem;
 
+            overflow:hidden;
+
         }
+    }
+
+    .homepage__content {
+        height: 100%;
+        width: 100%;
+        background-color: #ffffff;
+
+        padding: 5rem 0;
+
+        display: grid;
+        place-items:  start center ;
+
+        .homepage__content--wrapper {
+            height: 100%;
+            width: 85%;
+
+            display: grid;
+            grid-template-columns:[c1] 1fr [c2]1fr [c3]1fr [c4];
+            grid-template-rows: 1fr auto;
+            gap: 2rem 1rem;
+
+            .first{
+                grid-column-start:c1 ;
+                grid-column-end: c4;
+            }
+        }
+
     }
 }

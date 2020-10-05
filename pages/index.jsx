@@ -1,42 +1,72 @@
 
 import { Button } from '@material-ui/core';
+import { useEffect } from 'react';
+import FeaturedContent from '../src/components/FeaturedContent/FeaturedContent';
 import Layout from '../src/components/Layout/Layout';
+import Slider from '../src/components/Slider/Slider';
+
+const images = [
+  '/assets/loopd.webp',
+  '/assets/homepage.webp',
+  '/assets/hatch.jpg',
+  // '/assets/1.jpg',
+  // '/assets/2.jpg',
+  // '/assets/3.jpg',
+  // '/assets/4.jpg',
+]
 
 
 
+const Home = () => {
 
-const Home = () => (
-  <Layout>
-    <div className="homepage">
-      <div className="homepage__header">
-        <div className="header--item header--content">
-          <div className="header--content__wrapper">
-            <h1>I'm Gitartha Kalita</h1>
-            <div className="content--identity">
-            <h2>Entrepreneur</h2>
-              <h2>Fullstack Developer</h2>
-              <h2>Product Designer</h2>
+  return(
+    <Layout>
+      <div className="homepage">
+        <div className="homepage__header">
+          <div className="header--item header--content">
+            <div className="header--content__wrapper">
+              <h1>Hello! I'm Gitartha Kalita</h1>
+              <div className="content--identity">
+                <h2>/Entrepreneur</h2>
+                <h2>/Fullstack Developer</h2>
+                <h2>/Product Designer</h2>
+                <h2>/Artificial Intelligence Researcher</h2>
+              </div>
+              <div className="content--description">
+                <div>I</div>
+                <ul>
+                  <li>Design Strategies</li>
+                  <li>Solve Problems</li>
+                  <li>Develop Systems and</li>
+                  <li>Create Value</li>
+                  </ul>
+              </div>
+
+              <div>
+                <Button className="know-more">Know More</Button> <Button className="hire">Hire Me</Button>
+              </div>
             </div>
-            <div className="content--description">
-              <div>I</div>
-              <ul>
-                <li>Design Strategies</li>
-                <li>Solve Problems</li>
-                <li>Develop Systems and</li> 
-                <li>Create Value</li>
-              </ul>
-            </div>
-            
-            <Button>Know More</Button>
+          </div>
+          <div className="header--item header--image">
+            <Slider slides={images} autoPlay={3} />
           </div>
         </div>
-        <div className="header--item header--image"></div>
+
+        <div className="homepage__content">
+          <div className="content--item homepage__content--wrapper">
+            <div className="first">
+              <FeaturedContent />
+              <FeaturedContent />
+              <FeaturedContent />
+            </div>
+
+          </div>
+        </div>
+
+
       </div>
-
-
-
-    </div>
-  </Layout>
-)
+    </Layout>
+  )
+}
 
 export default Home

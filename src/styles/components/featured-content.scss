@@ -1,0 +1,97 @@
+.featured-content {
+    height: 60vh;
+    width: 100%;
+    box-shadow: 0 0 0.35rem #d5d8dd;
+    background-color: #ffffff;
+    padding: 1rem;
+    margin: 2rem 0;
+
+    .featured-content__wrapper {
+        height: 100%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1.5fr;
+        grid-template-rows: 1fr;
+
+        gap: 0.5rem;
+
+        .featured-item {
+            height: 100%;
+            width: 100%;
+            background-color: rgb(255, 255, 255);
+        }
+
+        .featured--image {
+            height: 100%;
+
+            background-image: url(/assets/store.svg);
+            // background-image: url(/assets/lazy.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: 50%;
+        }
+
+        .featured--content {
+            height: 100%;
+            width: 100%;
+            display: grid;
+            place-items: center;
+
+            .featured--content__wrapper{
+                height: 90%;
+                width: 90%;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                h1{
+                    font-size: 4.5rem;
+                    line-height: 6rem;
+                    cursor: pointer;
+                    font-family: 'Source Serif Pro', serif;
+                    
+                }
+                .description{
+                    text-align: justify;
+                    font-size: 1.4rem;
+                    line-height: 2.4rem;
+                    font-family: sans-serif;
+                    cursor: pointer;
+                }
+                .tags{
+                    display: flex;
+                    align-items: center;
+                    .date{                        
+                        font-size: 1.4rem;
+                        font-weight: 600;
+                        margin-left: auto;
+                        font-family: sans-serif;
+                        color: #d85555;
+                    }
+                    span{
+                        margin-right: 1rem;
+                        padding: .5rem 1rem;
+                        background-color: rgb(36, 55, 138);
+                        color: #ffffff;
+                        font-family: sans-serif;
+                        border-radius: 0.15rem;
+                        font-size: 1.2rem;
+                        font-weight: 600;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+
+
+    &:hover{
+        transform: translateY(-2%);
+        transition: all 500ms ease-in;
+    }
+
+    transition: all 350ms ease-in;
+
+
+}

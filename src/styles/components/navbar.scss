@@ -6,7 +6,7 @@
     display: grid;
     place-items: center stretch;
 
-    background-color: #fff;
+    background-color: rgb(38, 36, 66);
     // box-shadow: 0 0 0.35rem rgb(224, 225, 231);
     box-shadow: 0 0 0.35rem #d5d8dd;
     position: fixed;
@@ -16,7 +16,7 @@
 
     margin: 0;
 
-    border-radius:  0 1rem 1rem 0;
+    border-radius:  0 0.5rem 0.5rem 0;
 
     /* background-color: antiquewhite; */
 
@@ -58,12 +58,15 @@
 .logo {
     height: 100%;
     width: 100%;
-    background-image: url("https://www.flaticon.com/svg/static/icons/svg/2809/2809371.svg");
+    // background-image: url("https://www.flaticon.com/svg/static/icons/svg/2809/2809371.svg");
+    background-image: url("/assets/logo.svg");
 
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 110%;
+    background-position: 50% 40%;
     background-color: #6bd68f;
-    border-radius: 1rem;
+    background-clip: padding-box;
+    border-radius: 0.5rem;
 
 
 }
@@ -93,12 +96,15 @@
     font-family: sans-serif;
     font-size: 1.4rem;
     font-weight: 600;
-    color: #333fb1;
+    // color: #333fb1;
+    color: #ffffff;
     padding: 0.5rem;
     cursor: pointer;
 
     &:hover {
         background-color: #ecedf3;
+        // color: rgb(38, 36, 66);
+        color: #333fb1;
         border-left: 0.5rem solid rgb(112, 232, 146);
         transition: all 200ms ease;
     
@@ -122,6 +128,8 @@
     width: 2.5rem;
 
     background-color: #6bd68f;
+
+    border-radius: 0.5rem;
 
 }
 

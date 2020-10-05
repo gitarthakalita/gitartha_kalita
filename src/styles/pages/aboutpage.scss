@@ -1,0 +1,12 @@
+.aboutpage {
+    height: 100%;
+    display: grid;
+    place-items: center;
+    margin-left: 11rem;
+
+    .aboutpage__wrapper{
+        min-height: 100vh;
+        height: 100%;
+        width: 100%;
+    }
+}
