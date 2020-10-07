@@ -6,10 +6,11 @@ import { css, jsx } from '@emotion/core';
 
 
 const Arrow = ({ direction, handleClick }) => {
-    return (
-        <div
-            onClick={handleClick}
-            css={css`
+  return (
+    <div
+      onClick={handleClick}
+      
+      css={css`
       display: flex;
       position: absolute;
       top:50%;
@@ -33,11 +34,14 @@ const Arrow = ({ direction, handleClick }) => {
           outline: 0;
         }
       }
+      @media screen and (max-width: 480px) {
+        display:none;
+      }
     `}
-        >
-            {direction === 'right' ? <img src="/assets/right-arrow.svg" /> : <img src="/assets/left-arrow.svg" />}
-        </div>
-    )
+    >
+      {direction === 'right' ? <img src="/assets/right-arrow.svg" /> : <img src="/assets/left-arrow.svg" />}
+    </div>
+  )
 }
 
 export default Arrow

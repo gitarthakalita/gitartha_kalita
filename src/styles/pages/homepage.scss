@@ -3,6 +3,7 @@
     display: grid;
     place-items: center;
     margin-left: 11rem;
+    padding: 1rem;
 
     .homepage__header {
         height: 96vh;
@@ -26,7 +27,7 @@
             width: 100%;
 
             .header--content__wrapper {
-                height:90%;
+                height: 90%;
                 width: 75%;
 
                 display: flex;
@@ -45,9 +46,9 @@
                     justify-content: space-around;
 
                     h2 {
-                        font-size: 2.4rem;
+                        font-size: 2rem;
                         text-transform: capitalize;
-                        
+
 
                         padding: 0.25rem 5rem;
                     }
@@ -56,7 +57,7 @@
                 .content--description {
                     display: grid;
                     grid-template-columns: 1fr 1fr;
-                    font-size: 2rem;
+                    font-size: 1.8rem;
                     font-family: sans-serif;
                     border-right: 0.25rem solid rgb(36, 55, 138);
                     border-top: 0.25rem solid rgb(36, 55, 138);
@@ -73,11 +74,11 @@
                         margin-bottom: 0.75rem;
                     }
 
-                    &:hover{
+                    &:hover {
                         transform: translateX(-2%);
                         transition: inherit 500ms ease-in;
                     }
-                
+
                     transition: all 350ms ease-in;
 
                 }
@@ -89,24 +90,24 @@
                     outline: none;
                     font-size: 1.5rem;
                     font-weight: 600;
-                    
+
                     color: #000000;
                     border: none;
                     border-radius: 0.5rem;
                     box-shadow: 0 0 0.35rem #d5d8dd;
 
-                   
+
 
                     transition: all 500ms ease;
                 }
 
 
-                .know-more{
+                .know-more {
                     // background-color: #67F4AA;
                     background-color: #6bd68f;
-                    
+
                     margin-right: 5rem;
-                    
+
                 }
             }
         }
@@ -115,7 +116,7 @@
             height: 100%;
             width: 100%;
             // background-image: url(/assets/people.png);
-            
+
             // background-image: url(/assets/loopd.webp);
             // background-size: 100%;
             // background-repeat: no-repeat;
@@ -125,7 +126,7 @@
             box-shadow: 0 0 0.35rem #d5d8dd;
             border-radius: 1rem;
 
-            overflow:hidden;
+            overflow: hidden;
 
         }
     }
@@ -138,22 +139,120 @@
         padding: 5rem 0;
 
         display: grid;
-        place-items:  start center ;
+        place-items: start center;
 
         .homepage__content--wrapper {
             height: 100%;
             width: 85%;
 
             display: grid;
-            grid-template-columns:[c1] 1fr [c2]1fr [c3]1fr [c4];
+            grid-template-columns: [c1] 1fr [c2]1fr [c3]1fr [c4];
             grid-template-rows: 1fr auto;
             gap: 2rem 1rem;
 
-            .first{
-                grid-column-start:c1 ;
+            .first {
+                grid-column-start: c1;
                 grid-column-end: c4;
             }
         }
 
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .homepage {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+
+        .homepage__header {
+            height: 100%;
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+
+            .header--content {
+                height: 90vh;
+                width: 98%;
+
+
+                .header--content__wrapper {
+                    height: 100%;
+                    width: 100%;
+                    padding: 6rem 2rem 0 2rem;
+
+                    h1 {
+                        font-size: 3.6rem;
+                    }
+
+                    .content--identity {
+                        height: 15rem;
+
+                        h2 {
+                            font-size: 1.6rem;
+                            padding: 0.25rem 0 0.25rem 5rem;
+                        }
+                    }
+
+                    .content--description {
+                        font-size: 1.4rem;
+                        padding: 2rem 0;
+
+                        div {
+                            font-size: 2.4rem;
+                        }
+                    }
+
+                    .btn-wrapper{
+                        display: flex;
+                        justify-content: space-around;
+                    }
+
+                    Button {
+                        width: 12rem;
+                        font-size: 1.4rem;
+
+                    }
+
+                    .know-more {
+                        margin-right: 2rem;
+                    }
+                }
+
+            }
+
+            .header--image {
+                height: 85vh;
+                width: 95vw;
+                margin: 2rem auto;
+            }
+        }
+
+        .homepage__content {
+            display: flex;
+
+            padding: 3rem 0;
+            
+
+            .homepage__content--wrapper {
+                height: 100%;
+                width: 100%;
+
+                display: flex;
+                flex-direction: column;
+
+                .first {
+                    height: 100%;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    margin: 0 auto;
+                    padding: 0;
+                }
+            }
+        }
     }
 }

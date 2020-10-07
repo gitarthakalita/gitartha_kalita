@@ -7,10 +7,11 @@ import Slider from '../src/components/Slider/Slider';
 
 const images = [
   '/assets/loopd.webp',
+  '/assets/prep2.png',
+  '/assets/prep1.png',
   '/assets/homepage.webp',
   '/assets/hatch.jpg',
-  // '/assets/1.jpg',
-  // '/assets/2.jpg',
+  
   // '/assets/3.jpg',
   // '/assets/4.jpg',
 ]
@@ -42,13 +43,13 @@ const Home = () => {
                   </ul>
               </div>
 
-              <div>
+              <div className="btn-wrapper">
                 <Button className="know-more">Know More</Button> <Button className="hire">Hire Me</Button>
               </div>
             </div>
           </div>
           <div className="header--item header--image">
-            <Slider slides={images} autoPlay={3} />
+            <Slider slides={images} autoPlay={3} className=".noSelect" />
           </div>
         </div>
 

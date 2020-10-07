@@ -43,6 +43,10 @@ const Navbar = () => {
                     <div className="social-item linkedin"></div>
                     <div className="social-item github"></div>
                 </div>
+
+                <div className="sidebar">
+                    menu
+                </div>
             </div>
         </div>
     )

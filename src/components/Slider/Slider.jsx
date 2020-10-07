@@ -14,7 +14,7 @@ const Slider = (props) => {
     const targetRef = useRef();
     const [dimensions, setDimensions] = useState({ width: 0, height: 0 });
 
-    useLayoutEffect(() => {
+    useEffect(() => {
         if (targetRef.current) {
             setDimensions({
                 width: targetRef.current.offsetWidth,
@@ -22,10 +22,6 @@ const Slider = (props) => {
             });
         }
     }, []);
-
-
-
-    console.log(dimensions.width);
 
     const getWidth = () => dimensions.width
 
