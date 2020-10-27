@@ -28,6 +28,20 @@ body {
     }
 }
 
+body ::selection{
+    background-color: #6bd68f;
+  }
+  
+  body::-webkit-scrollbar{
+    width: 1rem;  
+  }
+  
+  body::-webkit-scrollbar-track{
+    background-color: #262442;
+  }
+  body::-webkit-scrollbar-thumb{
+    background-color: #26caa1;
+  }
 
 ul{
     list-style: none;
@@ -55,3 +69,8 @@ ul{
     -ms-user-select: none;
     user-select: none;
 }
+
+
+#__next-prerender-indicator {
+    display: none;
+  }

@@ -1,26 +1,18 @@
 
 import { Button } from '@material-ui/core';
-import { useEffect } from 'react';
 import FeaturedContent from '../src/components/FeaturedContent/FeaturedContent';
 import Layout from '../src/components/Layout/Layout';
 import Slider from '../src/components/Slider/Slider';
 
-const images = [
-  '/assets/loopd.webp',
-  '/assets/prep2.png',
-  '/assets/prep1.png',
-  '/assets/homepage.webp',
-  '/assets/hatch.jpg',
-  
-  // '/assets/3.jpg',
-  // '/assets/4.jpg',
-]
+import { SLIDE_DATA } from '../src/data/SLIDE_DATA';
 
 
+const Home = ({allPosts}) => {
 
-const Home = () => {
+  // const featuredPosts = allPosts[0]
+  // const morePosts = allPosts.slice(1)
 
-  return(
+  return (
     <Layout>
       <div className="homepage">
         <div className="homepage__header">
@@ -40,7 +32,7 @@ const Home = () => {
                   <li>Solve Problems</li>
                   <li>Develop Systems and</li>
                   <li>Create Value</li>
-                  </ul>
+                </ul>
               </div>
 
               <div className="btn-wrapper">
@@ -49,14 +41,18 @@ const Home = () => {
             </div>
           </div>
           <div className="header--item header--image">
-            <Slider slides={images} autoPlay={3} className=".noSelect" />
+            <Slider slides={SLIDE_DATA} autoPlay={3} className=".noSelect" />
           </div>
         </div>
+
+       
 
         <div className="homepage__content">
           <div className="content--item homepage__content--wrapper">
             <div className="first">
-              <FeaturedContent />
+              <FeaturedContent
+                title
+              />
               <FeaturedContent />
               <FeaturedContent />
             </div>
@@ -70,4 +66,20 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Home;
+
+
+// export async function getStaticProps() {
+//   const allPosts = getAllPosts([
+//     'title',
+//     'date',
+//     'slug',
+//     'author',
+//     'coverImage',
+//     'excerpt'
+//   ])
+
+//   return {
+//     props: { allPosts },
+//   }
+// }
