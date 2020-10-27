@@ -5,6 +5,7 @@ import Layout from '../src/components/Layout/Layout';
 import Slider from '../src/components/Slider/Slider';
 
 import { SLIDE_DATA } from '../src/data/SLIDE_DATA';
+import Link from 'next/link';
 
 
 const Home = ({allPosts}) => {
@@ -36,7 +37,10 @@ const Home = ({allPosts}) => {
               </div>
 
               <div className="btn-wrapper">
-                <Button className="know-more">Know More</Button> <Button className="hire">Hire Me</Button>
+                <Link href="/about">
+                <Button className="know-more">Know More</Button> 
+                </Link>
+                <Button className="hire">Hire Me</Button>
               </div>
             </div>
           </div>

@@ -83,10 +83,11 @@
                             color: #fff;
                             font-size: 3rem;
                             line-height: 5rem;
-                            text-transform: capitalize;
+                            
 
-                            span{
+                            .tech-con{
                                 color: #6bd68f;
+                                text-transform: capitalize;
                                 
                             }
 
@@ -106,14 +107,9 @@
                         }
                     }
                 }
-            }
-            
+            }           
         }
-
-        // About declaration Ends
-        
-
-        
+        // About declaration Ends        
     }
 }
 
@@ -122,5 +118,54 @@
 @media screen and (max-width: 480px) {
     .aboutpage{
         margin: 0;
+        padding: 0;
+
+        .aboutpage__wrapper{
+            .about--header{
+                height: 100vh;
+                .about--header__wrapper{
+                    
+                    width: 80%;
+    
+                    h1{
+                        font-size: 2.4rem;
+                        line-height: 6rem;
+                        
+                    }
+                }
+            }
+
+           .about--declaration{
+               height: 90vh;
+               .about--declaration__wrapper{
+                grid-template-columns: auto ;
+                .declaration-item{
+                    .declaration--content{
+                        width: 90%;
+                        padding: 0;
+                        padding-right: 5rem;
+
+                        h1{
+                            font-size: 1.8rem;
+
+                            .tech-con{
+                                display: block;
+                                font-size: 1.8rem;
+                            }
+                        }
+
+                        h2{
+                            font-size: 1.6rem;
+                        }
+                    }
+                }
+                .jelly-bro{
+                    display: none;
+                }
+               }
+           }
+        }
+
+        
     }
 }

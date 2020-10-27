@@ -60,6 +60,11 @@ ul{
     margin-left: 11rem;
 }
 
+@media screen and (max-width: 480px) {
+  .footer{
+    margin: 0;
+  }
+}
 
 .noSelect {
     -webkit-touch-callout: none;

@@ -19,7 +19,7 @@ const Navbar = () => {
                         <div className="menu-item">Blog</div>
                     </Link>
                     <Link href="/design-system">
-                        <div className="menu-item">Design System</div>
+                        <div className="menu-item">Design Process</div>
                     </Link>
 
                     <Link href="/services">
