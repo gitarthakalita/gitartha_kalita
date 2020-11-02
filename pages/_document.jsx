@@ -17,8 +17,8 @@ export default class MyDocument extends Document {
                     {/* <meta property="og:image" content="https://www.site-shot.com/dKldSh0DEeu_FAJCrBEABA" /> */}
                     <meta property="og:image" content="https://www.site-shot.com/98EeXB0DEeuYXgJCrBEABQ" />                    
                     <meta property="og:image:type" content="image/png" />
-                    <meta property="og:image:width" content="1200" />
-                    <meta property="og:image:height" content="630" />
+                    {/* <meta property="og:image:width" content="1200" />
+                    <meta property="og:image:height" content="630" /> */}
                     <meta property="og:image:alt" content="Gitartha Kalita" />
 
                 </Head>
