@@ -56,11 +56,14 @@
             display: grid;
             place-items: center ;
 
+            
+
             .about--declaration__wrapper{
                 height: 100%;
                 width: 100%;
                 display: grid;
                 grid-template-columns: 1.5fr 1fr ;
+                
 
                 .declaration-item{
                     width: 100%;
@@ -68,7 +71,7 @@
                     height: 100%;
                     display: grid;
                     place-items: center end;
-
+                    // position: relative;
 
                     .declaration--content{
                         height: 50%;
@@ -105,9 +108,22 @@
                             text-transform: capitalize;
                             
                         }
+
+                        
+                    }
+                    .about-index{
+                        position: absolute;
+                        background-color: rgb(231, 183, 183);
+                        height: 25rem;
+                        width: 30rem;
+                        bottom: -15%;
+                        left: 20%;
+                        display: none;
                     }
                 }
-            }           
+            } 
+            
+          
         }
         // About declaration Ends        
     }
@@ -140,6 +156,17 @@
                .about--declaration__wrapper{
                 grid-template-columns: auto ;
                 .declaration-item{
+
+                    .about-index{
+                        position: absolute;
+                        background-color: rgb(231, 183, 183);
+                        height: 25rem;
+                        width: 30rem;
+                        bottom: -20%;
+                        left:auto;
+                        right: auto;
+                    }
+
                     .declaration--content{
                         width: 90%;
                         padding: 0;

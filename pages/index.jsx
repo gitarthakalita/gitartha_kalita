@@ -40,7 +40,7 @@ const Home = ({allPosts}) => {
                 <Link href="/about">
                 <Button className="know-more">Know More</Button> 
                 </Link>
-                <Button className="hire">Hire Me</Button>
+                <Button className="hire">Get In Touch</Button>
               </div>
             </div>
           </div>

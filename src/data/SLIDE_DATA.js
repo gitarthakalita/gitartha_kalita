@@ -1,7 +1,7 @@
 export const SLIDE_DATA = [
   // '/assets/loopd.webp',
   '/assets/1.png',
-  // '/assets/2.png',
+  '/assets/4.png',
   '/assets/prep2.png',
   // '/assets/3.png',
   '/assets/prep1.png',
