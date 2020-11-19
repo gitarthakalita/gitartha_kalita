@@ -3,7 +3,7 @@
     display: grid;
     place-items: center;
     margin-left: 11rem;
-    
+
 
     .homepage__header {
         padding: 1rem;
@@ -35,16 +35,26 @@
                 flex-direction: column;
                 justify-content: space-evenly;
 
-                h1 {
-                    font-size: 6rem;
-                    font-family: 'Roboto Slab', serif;
+                div {
+
+                    h2 {
+                        font-size: 2rem;
+                    }
+
+                    h1 {
+                        font-size: 8rem;
+                        font-family: 'Roboto Slab', serif;
+                    }
                 }
+
 
                 .content--identity {
                     height: 15rem;
                     display: flex;
                     flex-direction: column;
                     justify-content: space-around;
+
+
 
                     h2 {
                         font-size: 2rem;
@@ -64,7 +74,7 @@
                     border-top: 0.25rem solid rgb(36, 55, 138);
                     padding: 3rem 0;
                     box-shadow: 0 0 0.35rem #d5d8dd;
-                    
+
 
                     div {
                         padding-left: 5rem;
@@ -115,7 +125,7 @@
         }
 
         .header--image {
-            height: 90vh;            
+            height: 90vh;
             width: 95%;
             // background-image: url(/assets/people.png);
 
@@ -170,6 +180,7 @@
         display: flex;
         flex-direction: column;
         width: 100vw;
+        
 
         .homepage__header {
             height: 100%;
@@ -187,9 +198,15 @@
                     width: 100%;
                     padding: 6rem 2rem 0 2rem;
 
-                    h1 {
-                        font-size: 3.6rem;
-                        line-height: 5.4rem;
+                    div {
+                        h2 {
+                            font-size: 1.6rem;
+                        }
+
+                        h1 {
+                            font-size: 4rem;
+                            line-height: 5.4rem;
+                        }
                     }
 
                     .content--identity {
@@ -210,7 +227,7 @@
                         }
                     }
 
-                    .btn-wrapper{
+                    .btn-wrapper {
                         display: flex;
                         justify-content: space-around;
                     }
@@ -229,8 +246,8 @@
             }
 
             .header--image {
-                
-                
+
+
                 height: calc(95vw*9/16);
                 width: 95vw;
                 margin: 2rem auto;
@@ -241,7 +258,7 @@
             display: flex;
 
             padding: 3rem 0;
-            
+
 
             .homepage__content--wrapper {
                 height: 100%;

@@ -2,7 +2,7 @@
     height: 100%;
     display: grid;
     place-items: center;
-    margin-left: 0rem;
+    margin-left: 11rem;
 
     .aboutpage__wrapper{
         min-height: 100vh;
@@ -49,6 +49,7 @@
             width: 100%;
             // background-image:  linear-gradient(rgba(0, 0, 0, 0.408), rgba(0, 0, 0, 0.408)), url(/assets/about-hero.jpg);
             background-color: #111111;
+            // background-color: #201c29;
             background-size: cover;
             background-repeat: no-repeat;
             background-position: 50%;
@@ -76,17 +77,19 @@
                     .declaration--content{
                         height: 50%;
                         width: 80%;
-                        padding-right: 10rem  ;
+                        
                         display: flex;
                         flex-direction: column;
-                        justify-content: space-evenly;
+                        justify-content: space-around;
+                        padding-right: 5rem  ;
 
                         
                         h1{
                             color: #fff;
                             font-size: 3rem;
                             line-height: 5rem;
-                            
+                            margin-bottom: 5rem;
+                            padding-right: 5rem  ;
 
                             .tech-con{
                                 color: #6bd68f;
@@ -101,11 +104,19 @@
                         }
 
                         h2{
-                            // color: rgb(127, 126, 223);
-                            color: rgb(99, 164, 224);
-                            font-size: 2rem;
-                            line-height: 5rem;
-                            text-transform: capitalize;
+                            color: rgb(47, 132, 218);
+                            // color: rgb(99, 164, 224);
+                            font-size: 1.6rem;
+                            line-height: 3.2rem;
+                            // text-transform: capitalize;
+                            font-family: 'Roboto Slab', serif;
+                            letter-spacing: 0.05rem;
+
+                            border-left: 0.75rem solid rgb(99, 164, 224);
+                            padding: 2rem  3rem;
+
+                            background-color: #fff;
+                            
                             
                         }
 
@@ -125,7 +136,21 @@
             
           
         }
-        // About declaration Ends        
+        // About declaration Ends     
+        
+        // About Content starts
+
+        .about--content{
+            height:100vh;
+            width: 100%;
+            display: grid;
+            place-items: start center;
+            
+            .about--content__wrapper{
+                width: 80%;
+                height: 100%;
+            }
+        }
     }
 }
 
@@ -135,6 +160,7 @@
     .aboutpage{
         margin: 0;
         padding: 0;
+        
 
         .aboutpage__wrapper{
             .about--header{
@@ -152,7 +178,7 @@
             }
 
            .about--declaration{
-               height: 90vh;
+               height: 120vh;
                .about--declaration__wrapper{
                 grid-template-columns: auto ;
                 .declaration-item{
@@ -173,16 +199,25 @@
                         padding-right: 5rem;
 
                         h1{
-                            font-size: 1.8rem;
+                            font-size: 1.6rem;
+                            line-height: 3rem;
+                            padding-right: 0  ;
+                            
 
                             .tech-con{
                                 display: block;
-                                font-size: 1.8rem;
+                                font-size: 1.9rem;
                             }
                         }
 
                         h2{
-                            font-size: 1.6rem;
+                            font-size: 1.5rem;
+                            line-height: 2.4rem;
+                            // color: rgb(202, 209, 216);
+                            padding: 2rem 1.5rem ;
+
+                            
+                            
                         }
                     }
                 }

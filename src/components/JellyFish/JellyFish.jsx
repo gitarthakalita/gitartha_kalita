@@ -4,2189 +4,2189 @@ const JellyFish = () => {
     return (
         <div className="body-jelly">
             
-            <div class="main-wrapper">
-                <div class="jellyfish-wrapper">
-                    <div class="bell">
-                        <div class="plane plane-1">
-                            <div class="spoke spoke-1">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+            <div className="main-wrapper">
+                <div className="jellyfish-wrapper">
+                    <div className="bell">
+                        <div className="plane plane-1">
+                            <div className="spoke spoke-1">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-2">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-2">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-3">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-3">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-4">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-4">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-5">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-5">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-6">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-6">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-7">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-7">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-8">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-8">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-9">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="plane plane-2">
-                            <div class="spoke spoke-1">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-2">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-3">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-4">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-5">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-6">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-7">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-8">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-9">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-9">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="plane plane-3">
-                            <div class="spoke spoke-1">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                        <div className="plane plane-2">
+                            <div className="spoke spoke-1">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-2">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-2">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-3">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-3">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-4">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-4">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-5">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-5">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-6">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-6">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-7">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-7">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-8">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-8">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-9">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="plane plane-4">
-                            <div class="spoke spoke-1">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-2">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-3">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-4">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-5">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-6">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-7">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-8">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-9">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-9">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="plane plane-5">
-                            <div class="spoke spoke-1">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                        <div className="plane plane-3">
+                            <div className="spoke spoke-1">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-2">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-2">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-3">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-3">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-4">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-4">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-5">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-5">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-6">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-6">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-7">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-7">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-8">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-8">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-9">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="plane plane-6">
-                            <div class="spoke spoke-1">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-2">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-3">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-4">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-5">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-6">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-7">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-8">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-9">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-9">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="plane plane-7">
-                            <div class="spoke spoke-1">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                        <div className="plane plane-4">
+                            <div className="spoke spoke-1">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-2">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-2">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-3">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-3">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-4">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-4">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-5">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-5">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-6">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-6">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-7">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-7">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-8">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-8">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-9">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="plane plane-8">
-                            <div class="spoke spoke-1">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-2">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-3">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-4">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-5">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-6">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-7">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-8">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-9">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-9">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="plane plane-9">
-                            <div class="spoke spoke-1">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                        <div className="plane plane-5">
+                            <div className="spoke spoke-1">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-2">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-2">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-3">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-3">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-4">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-4">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-5">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-5">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-6">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-6">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-7">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-7">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-8">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-8">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-9">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="plane plane-10">
-                            <div class="spoke spoke-1">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-2">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-3">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-4">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-5">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-6">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-7">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-8">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-9">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-9">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="plane plane-11">
-                            <div class="spoke spoke-1">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                        <div className="plane plane-6">
+                            <div className="spoke spoke-1">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-2">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-2">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-3">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-3">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-4">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-4">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-5">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-5">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-6">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-6">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-7">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-7">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-8">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-8">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-9">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="plane plane-12">
-                            <div class="spoke spoke-1">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-2">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-3">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-4">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-5">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-6">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-7">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-8">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-9">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-9">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="plane plane-13">
-                            <div class="spoke spoke-1">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                        <div className="plane plane-7">
+                            <div className="spoke spoke-1">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-2">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-2">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-3">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-3">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-4">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-4">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-5">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-5">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-6">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-6">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-7">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-7">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-8">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-8">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-9">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="plane plane-14">
-                            <div class="spoke spoke-1">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-2">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-3">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-4">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-5">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-6">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-7">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-8">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-9">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-9">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="plane plane-15">
-                            <div class="spoke spoke-1">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                        <div className="plane plane-8">
+                            <div className="spoke spoke-1">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-2">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-2">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-3">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-3">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-4">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-4">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-5">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-5">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-6">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-6">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-7">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-7">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-8">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-8">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-9">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="plane plane-16">
-                            <div class="spoke spoke-1">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-2">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-3">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-4">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-5">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-6">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-7">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-8">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-9">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-9">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="plane plane-17">
-                            <div class="spoke spoke-1">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                        <div className="plane plane-9">
+                            <div className="spoke spoke-1">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-2">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-2">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-3">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-3">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-4">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-4">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-5">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-5">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-6">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-6">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-7">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-7">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-8">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-8">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-9">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="plane plane-18">
-                            <div class="spoke spoke-1">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-2">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-3">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-4">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-5">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-6">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-7">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-8">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-9">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-9">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="plane plane-19">
-                            <div class="spoke spoke-1">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                        <div className="plane plane-10">
+                            <div className="spoke spoke-1">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-2">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-2">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-3">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-3">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-4">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-4">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-5">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-5">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-6">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-6">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-7">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-7">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-8">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-8">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-9">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="plane plane-20">
-                            <div class="spoke spoke-1">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-2">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-3">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-4">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-5">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-6">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-7">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-8">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-9">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-9">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="plane plane-21">
-                            <div class="spoke spoke-1">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                        <div className="plane plane-11">
+                            <div className="spoke spoke-1">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-2">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-2">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-3">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-3">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-4">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-4">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-5">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-5">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-6">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-6">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-7">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-7">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-8">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-8">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-9">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="plane plane-22">
-                            <div class="spoke spoke-1">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-2">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-3">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-4">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-5">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-6">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-7">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-8">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="spoke spoke-9">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-9">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="plane plane-23">
-                            <div class="spoke spoke-1">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                        <div className="plane plane-12">
+                            <div className="spoke spoke-1">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-2">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-2">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-3">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-3">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-4">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-4">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-5">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-5">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-6">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-6">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-7">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-7">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-8">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-8">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-9">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-9">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="plane plane-24">
-                            <div class="spoke spoke-1">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                        <div className="plane plane-13">
+                            <div className="spoke spoke-1">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-2">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-2">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-3">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-3">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-4">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-4">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-5">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-5">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-6">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-6">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-7">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-7">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-8">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-8">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="spoke spoke-9">
-                                <div class="dot-wrapper">
-                                    <div class="dot-content">
-                                        <div class="dot-top"></div>
-                                        <div class="dot-bottom"></div>
+                            <div className="spoke spoke-9">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="plane plane-14">
+                            <div className="spoke spoke-1">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-2">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-3">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-4">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-5">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-6">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-7">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-8">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-9">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="plane plane-15">
+                            <div className="spoke spoke-1">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-2">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-3">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-4">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-5">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-6">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-7">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-8">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-9">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="plane plane-16">
+                            <div className="spoke spoke-1">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-2">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-3">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-4">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-5">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-6">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-7">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-8">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-9">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="plane plane-17">
+                            <div className="spoke spoke-1">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-2">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-3">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-4">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-5">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-6">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-7">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-8">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-9">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="plane plane-18">
+                            <div className="spoke spoke-1">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-2">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-3">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-4">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-5">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-6">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-7">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-8">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-9">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="plane plane-19">
+                            <div className="spoke spoke-1">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-2">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-3">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-4">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-5">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-6">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-7">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-8">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-9">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="plane plane-20">
+                            <div className="spoke spoke-1">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-2">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-3">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-4">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-5">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-6">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-7">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-8">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-9">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="plane plane-21">
+                            <div className="spoke spoke-1">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-2">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-3">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-4">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-5">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-6">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-7">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-8">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-9">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="plane plane-22">
+                            <div className="spoke spoke-1">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-2">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-3">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-4">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-5">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-6">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-7">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-8">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-9">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="plane plane-23">
+                            <div className="spoke spoke-1">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-2">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-3">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-4">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-5">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-6">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-7">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-8">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-9">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="plane plane-24">
+                            <div className="spoke spoke-1">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-2">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-3">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-4">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-5">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-6">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-7">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-8">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="spoke spoke-9">
+                                <div className="dot-wrapper">
+                                    <div className="dot-content">
+                                        <div className="dot-top"></div>
+                                        <div className="dot-bottom"></div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="tentacles">
-                        <div class="t-plane t-plane-1">
-                            <div class="t-spoke t-spoke-1">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
+                    <div className="tentacles">
+                        <div className="t-plane t-plane-1">
+                            <div className="t-spoke t-spoke-1">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
                                 </div>
                             </div>
-                            <div class="t-spoke t-spoke-2">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
+                            <div className="t-spoke t-spoke-2">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
                                 </div>
                             </div>
-                            <div class="t-spoke t-spoke-3">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
+                            <div className="t-spoke t-spoke-3">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
                                 </div>
                             </div>
-                            <div class="t-spoke t-spoke-4">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
+                            <div className="t-spoke t-spoke-4">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
                                 </div>
                             </div>
-                            <div class="t-spoke t-spoke-5">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="t-plane t-plane-2">
-                            <div class="t-spoke t-spoke-1">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
-                                </div>
-                            </div>
-                            <div class="t-spoke t-spoke-2">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
-                                </div>
-                            </div>
-                            <div class="t-spoke t-spoke-3">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
-                                </div>
-                            </div>
-                            <div class="t-spoke t-spoke-4">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
-                                </div>
-                            </div>
-                            <div class="t-spoke t-spoke-5">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
+                            <div className="t-spoke t-spoke-5">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
                                 </div>
                             </div>
                         </div>
-                        <div class="t-plane t-plane-3">
-                            <div class="t-spoke t-spoke-1">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
+                        <div className="t-plane t-plane-2">
+                            <div className="t-spoke t-spoke-1">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
                                 </div>
                             </div>
-                            <div class="t-spoke t-spoke-2">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
+                            <div className="t-spoke t-spoke-2">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
                                 </div>
                             </div>
-                            <div class="t-spoke t-spoke-3">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
+                            <div className="t-spoke t-spoke-3">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
                                 </div>
                             </div>
-                            <div class="t-spoke t-spoke-4">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
+                            <div className="t-spoke t-spoke-4">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
                                 </div>
                             </div>
-                            <div class="t-spoke t-spoke-5">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="t-plane t-plane-4">
-                            <div class="t-spoke t-spoke-1">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
-                                </div>
-                            </div>
-                            <div class="t-spoke t-spoke-2">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
-                                </div>
-                            </div>
-                            <div class="t-spoke t-spoke-3">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
-                                </div>
-                            </div>
-                            <div class="t-spoke t-spoke-4">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
-                                </div>
-                            </div>
-                            <div class="t-spoke t-spoke-5">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
+                            <div className="t-spoke t-spoke-5">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
                                 </div>
                             </div>
                         </div>
-                        <div class="t-plane t-plane-5">
-                            <div class="t-spoke t-spoke-1">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
+                        <div className="t-plane t-plane-3">
+                            <div className="t-spoke t-spoke-1">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
                                 </div>
                             </div>
-                            <div class="t-spoke t-spoke-2">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
+                            <div className="t-spoke t-spoke-2">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
                                 </div>
                             </div>
-                            <div class="t-spoke t-spoke-3">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
+                            <div className="t-spoke t-spoke-3">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
                                 </div>
                             </div>
-                            <div class="t-spoke t-spoke-4">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
+                            <div className="t-spoke t-spoke-4">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
                                 </div>
                             </div>
-                            <div class="t-spoke t-spoke-5">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="t-plane t-plane-6">
-                            <div class="t-spoke t-spoke-1">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
-                                </div>
-                            </div>
-                            <div class="t-spoke t-spoke-2">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
-                                </div>
-                            </div>
-                            <div class="t-spoke t-spoke-3">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
-                                </div>
-                            </div>
-                            <div class="t-spoke t-spoke-4">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
-                                </div>
-                            </div>
-                            <div class="t-spoke t-spoke-5">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
+                            <div className="t-spoke t-spoke-5">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
                                 </div>
                             </div>
                         </div>
-                        <div class="t-plane t-plane-7">
-                            <div class="t-spoke t-spoke-1">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
+                        <div className="t-plane t-plane-4">
+                            <div className="t-spoke t-spoke-1">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
                                 </div>
                             </div>
-                            <div class="t-spoke t-spoke-2">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
+                            <div className="t-spoke t-spoke-2">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
                                 </div>
                             </div>
-                            <div class="t-spoke t-spoke-3">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
+                            <div className="t-spoke t-spoke-3">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
                                 </div>
                             </div>
-                            <div class="t-spoke t-spoke-4">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
+                            <div className="t-spoke t-spoke-4">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
                                 </div>
                             </div>
-                            <div class="t-spoke t-spoke-5">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="t-plane t-plane-8">
-                            <div class="t-spoke t-spoke-1">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
-                                </div>
-                            </div>
-                            <div class="t-spoke t-spoke-2">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
-                                </div>
-                            </div>
-                            <div class="t-spoke t-spoke-3">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
-                                </div>
-                            </div>
-                            <div class="t-spoke t-spoke-4">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
-                                </div>
-                            </div>
-                            <div class="t-spoke t-spoke-5">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
+                            <div className="t-spoke t-spoke-5">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
                                 </div>
                             </div>
                         </div>
-                        <div class="t-plane t-plane-9">
-                            <div class="t-spoke t-spoke-1">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
+                        <div className="t-plane t-plane-5">
+                            <div className="t-spoke t-spoke-1">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
                                 </div>
                             </div>
-                            <div class="t-spoke t-spoke-2">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
+                            <div className="t-spoke t-spoke-2">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
                                 </div>
                             </div>
-                            <div class="t-spoke t-spoke-3">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
+                            <div className="t-spoke t-spoke-3">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
                                 </div>
                             </div>
-                            <div class="t-spoke t-spoke-4">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
+                            <div className="t-spoke t-spoke-4">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
                                 </div>
                             </div>
-                            <div class="t-spoke t-spoke-5">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="t-plane t-plane-10">
-                            <div class="t-spoke t-spoke-1">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
-                                </div>
-                            </div>
-                            <div class="t-spoke t-spoke-2">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
-                                </div>
-                            </div>
-                            <div class="t-spoke t-spoke-3">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
-                                </div>
-                            </div>
-                            <div class="t-spoke t-spoke-4">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
-                                </div>
-                            </div>
-                            <div class="t-spoke t-spoke-5">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
+                            <div className="t-spoke t-spoke-5">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
                                 </div>
                             </div>
                         </div>
-                        <div class="t-plane t-plane-11">
-                            <div class="t-spoke t-spoke-1">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
+                        <div className="t-plane t-plane-6">
+                            <div className="t-spoke t-spoke-1">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
                                 </div>
                             </div>
-                            <div class="t-spoke t-spoke-2">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
+                            <div className="t-spoke t-spoke-2">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
                                 </div>
                             </div>
-                            <div class="t-spoke t-spoke-3">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
+                            <div className="t-spoke t-spoke-3">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
                                 </div>
                             </div>
-                            <div class="t-spoke t-spoke-4">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
+                            <div className="t-spoke t-spoke-4">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
                                 </div>
                             </div>
-                            <div class="t-spoke t-spoke-5">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="t-plane t-plane-12">
-                            <div class="t-spoke t-spoke-1">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
-                                </div>
-                            </div>
-                            <div class="t-spoke t-spoke-2">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
-                                </div>
-                            </div>
-                            <div class="t-spoke t-spoke-3">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
-                                </div>
-                            </div>
-                            <div class="t-spoke t-spoke-4">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
-                                </div>
-                            </div>
-                            <div class="t-spoke t-spoke-5">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
+                            <div className="t-spoke t-spoke-5">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
                                 </div>
                             </div>
                         </div>
-                        <div class="t-plane t-plane-13">
-                            <div class="t-spoke t-spoke-1">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
+                        <div className="t-plane t-plane-7">
+                            <div className="t-spoke t-spoke-1">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
                                 </div>
                             </div>
-                            <div class="t-spoke t-spoke-2">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
+                            <div className="t-spoke t-spoke-2">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
                                 </div>
                             </div>
-                            <div class="t-spoke t-spoke-3">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
+                            <div className="t-spoke t-spoke-3">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
                                 </div>
                             </div>
-                            <div class="t-spoke t-spoke-4">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
+                            <div className="t-spoke t-spoke-4">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
                                 </div>
                             </div>
-                            <div class="t-spoke t-spoke-5">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="t-plane t-plane-14">
-                            <div class="t-spoke t-spoke-1">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
-                                </div>
-                            </div>
-                            <div class="t-spoke t-spoke-2">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
-                                </div>
-                            </div>
-                            <div class="t-spoke t-spoke-3">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
-                                </div>
-                            </div>
-                            <div class="t-spoke t-spoke-4">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
-                                </div>
-                            </div>
-                            <div class="t-spoke t-spoke-5">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
+                            <div className="t-spoke t-spoke-5">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
                                 </div>
                             </div>
                         </div>
-                        <div class="t-plane t-plane-15">
-                            <div class="t-spoke t-spoke-1">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
+                        <div className="t-plane t-plane-8">
+                            <div className="t-spoke t-spoke-1">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
                                 </div>
                             </div>
-                            <div class="t-spoke t-spoke-2">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
+                            <div className="t-spoke t-spoke-2">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
                                 </div>
                             </div>
-                            <div class="t-spoke t-spoke-3">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
+                            <div className="t-spoke t-spoke-3">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
                                 </div>
                             </div>
-                            <div class="t-spoke t-spoke-4">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
+                            <div className="t-spoke t-spoke-4">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
                                 </div>
                             </div>
-                            <div class="t-spoke t-spoke-5">
-                                <div class="t-dot-wrapper">
-                                    <div class="t-dot"></div>
+                            <div className="t-spoke t-spoke-5">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="t-plane t-plane-9">
+                            <div className="t-spoke t-spoke-1">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
+                                </div>
+                            </div>
+                            <div className="t-spoke t-spoke-2">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
+                                </div>
+                            </div>
+                            <div className="t-spoke t-spoke-3">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
+                                </div>
+                            </div>
+                            <div className="t-spoke t-spoke-4">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
+                                </div>
+                            </div>
+                            <div className="t-spoke t-spoke-5">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="t-plane t-plane-10">
+                            <div className="t-spoke t-spoke-1">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
+                                </div>
+                            </div>
+                            <div className="t-spoke t-spoke-2">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
+                                </div>
+                            </div>
+                            <div className="t-spoke t-spoke-3">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
+                                </div>
+                            </div>
+                            <div className="t-spoke t-spoke-4">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
+                                </div>
+                            </div>
+                            <div className="t-spoke t-spoke-5">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="t-plane t-plane-11">
+                            <div className="t-spoke t-spoke-1">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
+                                </div>
+                            </div>
+                            <div className="t-spoke t-spoke-2">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
+                                </div>
+                            </div>
+                            <div className="t-spoke t-spoke-3">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
+                                </div>
+                            </div>
+                            <div className="t-spoke t-spoke-4">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
+                                </div>
+                            </div>
+                            <div className="t-spoke t-spoke-5">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="t-plane t-plane-12">
+                            <div className="t-spoke t-spoke-1">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
+                                </div>
+                            </div>
+                            <div className="t-spoke t-spoke-2">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
+                                </div>
+                            </div>
+                            <div className="t-spoke t-spoke-3">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
+                                </div>
+                            </div>
+                            <div className="t-spoke t-spoke-4">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
+                                </div>
+                            </div>
+                            <div className="t-spoke t-spoke-5">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="t-plane t-plane-13">
+                            <div className="t-spoke t-spoke-1">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
+                                </div>
+                            </div>
+                            <div className="t-spoke t-spoke-2">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
+                                </div>
+                            </div>
+                            <div className="t-spoke t-spoke-3">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
+                                </div>
+                            </div>
+                            <div className="t-spoke t-spoke-4">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
+                                </div>
+                            </div>
+                            <div className="t-spoke t-spoke-5">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="t-plane t-plane-14">
+                            <div className="t-spoke t-spoke-1">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
+                                </div>
+                            </div>
+                            <div className="t-spoke t-spoke-2">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
+                                </div>
+                            </div>
+                            <div className="t-spoke t-spoke-3">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
+                                </div>
+                            </div>
+                            <div className="t-spoke t-spoke-4">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
+                                </div>
+                            </div>
+                            <div className="t-spoke t-spoke-5">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="t-plane t-plane-15">
+                            <div className="t-spoke t-spoke-1">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
+                                </div>
+                            </div>
+                            <div className="t-spoke t-spoke-2">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
+                                </div>
+                            </div>
+                            <div className="t-spoke t-spoke-3">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
+                                </div>
+                            </div>
+                            <div className="t-spoke t-spoke-4">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
+                                </div>
+                            </div>
+                            <div className="t-spoke t-spoke-5">
+                                <div className="t-dot-wrapper">
+                                    <div className="t-dot"></div>
                                 </div>
                             </div>
                         </div>

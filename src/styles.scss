@@ -49,7 +49,7 @@ ul{
 
 
 .footer{
-    height: 5rem;
+    height: 10rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,6 +58,9 @@ ul{
     text-transform: capitalize;
     padding: 0 ;
     margin-left: 11rem;
+    // background-color: #262442;
+    // color: #fff;
+    
 }
 
 @media screen and (max-width: 480px) {
@@ -78,4 +81,15 @@ ul{
 
 #__next-prerender-indicator {
     display: none;
+  }
+
+
+  a {
+    // color: #ff6060;
+    color: #ffffff;
+    
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
   }

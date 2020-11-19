@@ -8,7 +8,7 @@ import { SLIDE_DATA } from '../src/data/SLIDE_DATA';
 import Link from 'next/link';
 
 
-const Home = ({allPosts}) => {
+const Home = ({ allPosts }) => {
 
   // const featuredPosts = allPosts[0]
   // const morePosts = allPosts.slice(1)
@@ -19,12 +19,15 @@ const Home = ({allPosts}) => {
         <div className="homepage__header">
           <div className="header--item header--content">
             <div className="header--content__wrapper">
-              <h1>Hello! I'm Gitartha Kalita</h1>
+              <div>
+                <h2>Hello! I am</h2>
+                <h1> Gitartha Kalita</h1>
+              </div>
               <div className="content--identity">
-                <h2>/Entrepreneur</h2>
-                <h2>/Fullstack Developer</h2>
-                <h2>/Product Designer</h2>
-                <h2>/Artificial Intelligence Researcher</h2>
+                <h2>Entrepreneur</h2>
+                <h2>Fullstack Developer</h2>
+                <h2>Product Designer</h2>
+                <h2>Artificial Intelligence Enthusiast</h2>
               </div>
               <div className="content--description">
                 <div>I</div>
@@ -38,7 +41,7 @@ const Home = ({allPosts}) => {
 
               <div className="btn-wrapper">
                 <Link href="/about">
-                <Button className="know-more">Know More</Button> 
+                  <Button className="know-more">Know More</Button>
                 </Link>
                 <Button className="hire">Get In Touch</Button>
               </div>
@@ -49,7 +52,7 @@ const Home = ({allPosts}) => {
           </div>
         </div>
 
-       
+
 
         <div className="homepage__content">
           <div className="content--item homepage__content--wrapper">
