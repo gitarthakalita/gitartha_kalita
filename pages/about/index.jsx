@@ -82,7 +82,12 @@ const About = () => {
                                         ))
                                     }
                                 </div>
-                                <div className="item content"></div>
+                                <div className="item content">
+                                    <h1>Services</h1>
+                                    <p>
+                                    <a href="/services">Learn More</a>  about services I offer.
+                                    </p>
+                                </div>
 
                             </div>
                         </div>

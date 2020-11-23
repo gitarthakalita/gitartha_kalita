@@ -1,14 +1,35 @@
-.about-serivce-card, .mew{
-    height: 30rem;
-    width: 40rem;
-
-    background-color: rgb(179, 96, 96);
-
+.mew_service{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 0.35rem #d5d8dd;
     display: grid;
-    grid-template-rows: 5fr 1fr;
+    grid-template-rows: 5fr 2.5fr;
 
-    h1{
-        font-size: 4rem;
+    cursor: pointer;
+    
+    .service-image{
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: 95%;
     }
 
+    h1{
+
+        height: 90%;
+        font-size: 2rem;
+        padding: 2rem ;
+        display: grid;
+        
+        text-align: center;
+        line-height: 170%;               
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .mew_service{
+        height: 95%;
+        min-width: 80vw;        
+        margin: 0;
+    }
 }
