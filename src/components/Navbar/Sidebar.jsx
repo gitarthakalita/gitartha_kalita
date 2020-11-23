@@ -28,7 +28,7 @@ const Sidebar = () => {
                         <Link href="/blog">
                             <div className="menu-item-text">Blog</div>
                         </Link>
-                        <Link href="/design-system">
+                        <Link href="/design-process">
                             <div className="menu-item-text">Design Process</div>
                         </Link>
 

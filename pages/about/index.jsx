@@ -38,7 +38,7 @@ const About = () => {
                                         </p>
                                         <p>Among other things, my core skill sets are big picture thinking, pattern recognition, strategic planning, problem-solving, and the ability to turn ideas into real products.</p>
                                     </h2>
-                                    
+
                                 </div>
                             </div>
                             <div className="declaration-item jelly-bro">
@@ -52,13 +52,26 @@ const About = () => {
                     <div className="about--content ">
                         <div className="about--content__wrapper">
                             <div className="about-design-system">
-
+                                <div className="item image"></div>
+                                <div className="item content">
+                                    <h1>
+                                        User Experience  Design Process
+                                    </h1>
+                                    <p>
+                                        Having a design process in place provides me a Framework on how I tackle problems by breaking it down into a series of interconnected systems. <Link href="/design-process">Learn More</Link>  about both my UX Design Process and Application Development Process.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
+
+                    {/* <hr /> */}
+
                     <div className="about--content">
                         <div className="about--content__wrapper">
                             <div className="about-service">
+                                <div className="item service-card"></div>
+                                <div className="item content"></div>
 
                             </div>
                         </div>
