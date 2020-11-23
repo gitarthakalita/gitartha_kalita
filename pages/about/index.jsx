@@ -1,7 +1,9 @@
 import Link from 'next/link'
 import React from 'react'
+import AboutServiceCard from '../../src/components/AboutServiceCard/AboutServiceCard';
 import JellyFish from '../../src/components/JellyFish/JellyFish'
-import Layout from '../../src/components/Layout/Layout'
+import Layout from '../../src/components/Layout/Layout';
+import {SERVICE_CARD_DATA} from '../../src/data/SERVICE_CARD_DATA';
 
 const About = () => {
     return (
@@ -24,9 +26,9 @@ const About = () => {
                         <div className="about--declaration__wrapper">
                             <div className="declaration-item">
                                 <div className="declaration--content">
-                                    <h1>I am <span className="lower-a">a</span> <span className="tech-con">Technology Product Consultant</span> with Experience in a wide range of <Link href="/learning-space">Disciplines</Link> </h1>
+                                    <h1>I am <span className="lower-a">a</span> <span className="tech-con">Technology Product Consultant</span> with Experience in a wide range of <a href="/learning-space">Disciplines</a> </h1>
                                     <h2>
-                                        <p>
+                                        <div>
                                             I help businesses create strategies and develop Products that add value interms of <span>Revenue</span> and <span>Efficieny</span>. My primary focus of expertise lies in:
                                             <ul>
                                                 <li>User Experience Design</li>
@@ -35,7 +37,7 @@ const About = () => {
                                                 <li>Product Development </li>
                                             </ul>
                                           I utilize my knowledge of Design and Programming to incorporate a business solution.
-                                        </p>
+                                        </div>
                                         <p>Among other things, my core skill sets are big picture thinking, pattern recognition, strategic planning, problem-solving, and the ability to turn ideas into real products.</p>
                                     </h2>
 
@@ -58,7 +60,7 @@ const About = () => {
                                         User Experience  Design Process
                                     </h1>
                                     <p>
-                                        Having a design process in place provides me a Framework on how I tackle problems by breaking it down into a series of interconnected systems. <Link href="/design-process">Learn More</Link>  about both my UX Design Process and Application Development Process.
+                                        Having a design process in place provides me a Framework on how I tackle problems by breaking it down into a series of interconnected systems. <a href="/design-process">Learn More</a>  about both my UX Design Process and Application Development Process.
                                     </p>
                                 </div>
                             </div>
@@ -70,7 +72,16 @@ const About = () => {
                     <div className="about--content">
                         <div className="about--content__wrapper">
                             <div className="about-service">
-                                <div className="item service-card"></div>
+                                <div className="item service-card__wrapper">
+                                    {
+                                        SERVICE_CARD_DATA.map((item,index) => (
+                                            <AboutServiceCard 
+                                                item={item}
+                                                key={index}
+                                            />
+                                        ))
+                                    }
+                                </div>
                                 <div className="item content"></div>
 
                             </div>

@@ -1,0 +1,14 @@
+.about-serivce-card, .mew{
+    height: 30rem;
+    width: 40rem;
+
+    background-color: rgb(179, 96, 96);
+
+    display: grid;
+    grid-template-rows: 5fr 1fr;
+
+    h1{
+        font-size: 4rem;
+    }
+
+}
