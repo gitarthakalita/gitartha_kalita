@@ -26,10 +26,19 @@ const About = () => {
                                 <div className="declaration--content">
                                     <h1>I am <span className="lower-a">a</span> <span className="tech-con">Technology Product Consultant</span> with Experience in a wide range of <Link href="/learning-space">Disciplines</Link> </h1>
                                     <h2>
-                                        I help businesses create strategies and develop Products that add value interms of <span>revenue</span> and <span>efficieny</span>. My primary focus of expertise lies in user experience design, product research, product innovation, and product development. I utilize my knowledge of design and programming to incorporate a business solution. Among other things, my core skill sets are big picture thinking, pattern recognition, strategic planning, problem-solving, and the ability to turn ideas into real products. I enjoy the process of finding a solution to business-specific problems and design a solution pipeline.
+                                        <p>
+                                            I help businesses create strategies and develop Products that add value interms of <span>Revenue</span> and <span>Efficieny</span>. My primary focus of expertise lies in:
+                                            <ul>
+                                                <li>User Experience Design</li>
+                                                <li>Product Research</li>
+                                                <li>Product Innovation and</li>
+                                                <li>Product Development </li>
+                                            </ul>
+                                          I utilize my knowledge of Design and Programming to incorporate a business solution.
+                                        </p>
+                                        <p>Among other things, my core skill sets are big picture thinking, pattern recognition, strategic planning, problem-solving, and the ability to turn ideas into real products.</p>
                                     </h2>
-                                    {/* <div className="about-index">
-                                    </div> */}
+                                    
                                 </div>
                             </div>
                             <div className="declaration-item jelly-bro">

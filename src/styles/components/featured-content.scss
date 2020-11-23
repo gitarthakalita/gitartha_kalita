@@ -100,9 +100,10 @@
 @media screen and (max-width: 480px) {
 
       .featured-content{
-        height: 85vh;
+        height: 80vh;
         width: 95vw;
-        margin: 1.5rem auto;
+        margin: 0 auto;
+        margin-bottom: 5rem;
         padding: 0;
 
         .featured-content__wrapper{

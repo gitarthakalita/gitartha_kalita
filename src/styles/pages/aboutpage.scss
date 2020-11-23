@@ -104,33 +104,41 @@
                         }
 
                         h2{
-                            color: rgb(47, 132, 218);
+                            color: rgb(47, 120, 194);
+                            color: #2a3158;
                             // color: rgb(99, 164, 224);
                             font-size: 1.6rem;
+                            font-weight: 400;
                             line-height: 3.2rem;
                             // text-transform: capitalize;
                             font-family: 'Roboto Slab', serif;
                             letter-spacing: 0.05rem;
-
                             border-left: 0.75rem solid rgb(99, 164, 224);
                             padding: 2rem  3rem;
-
                             background-color: #fff;
+
+                            p{
+                                margin: 1rem 0;
+                            }
+                                               
+                            span{
+                                color: #2a3158;
+                                color: rgb(47, 120, 194);
+                            }
+
+
+                            ul{
+                                list-style: square;
+                                color: black;
+                                margin-left: 3rem;
+                            }
                             
                             
                         }
 
                         
                     }
-                    .about-index{
-                        position: absolute;
-                        background-color: rgb(231, 183, 183);
-                        height: 25rem;
-                        width: 30rem;
-                        bottom: -15%;
-                        left: 20%;
-                        display: none;
-                    }
+                    
                 }
             } 
             
@@ -167,7 +175,7 @@
                 height: 100vh;
                 .about--header__wrapper{
                     
-                    width: 80%;
+                    width: 90%;
     
                     h1{
                         font-size: 2.4rem;
@@ -181,32 +189,23 @@
                height: 120vh;
                .about--declaration__wrapper{
                 grid-template-columns: auto ;
-                .declaration-item{
-
-                    .about-index{
-                        position: absolute;
-                        background-color: rgb(231, 183, 183);
-                        height: 25rem;
-                        width: 30rem;
-                        bottom: -20%;
-                        left:auto;
-                        right: auto;
-                    }
-
+                .declaration-item{             
                     .declaration--content{
                         width: 90%;
                         padding: 0;
-                        padding-right: 5rem;
+                        padding-right: 0;
+                        margin: 0 auto;
 
                         h1{
                             font-size: 1.6rem;
-                            line-height: 3rem;
+                            line-height: 4rem;
                             padding-right: 0  ;
                             
 
                             .tech-con{
                                 display: block;
-                                font-size: 1.9rem;
+                                font-size: 2.4rem;
+                                // text-transform: uppercase;
                             }
                         }
 
@@ -214,7 +213,7 @@
                             font-size: 1.5rem;
                             line-height: 2.4rem;
                             // color: rgb(202, 209, 216);
-                            padding: 2rem 1.5rem ;
+                            padding: 2rem 2rem ;
 
                             
                             

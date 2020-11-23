@@ -6,7 +6,7 @@
 
 
     .homepage__header {
-        padding: 1rem;
+        padding: 0;
         height: auto;
         width: 100%;
         // background-color: #edf1f8;
@@ -125,20 +125,15 @@
         }
 
         .header--image {
-            height: 90vh;
-            width: 95%;
-            // background-image: url(/assets/people.png);
-
-            // background-image: url(/assets/loopd.webp);
-            // background-size: 100%;
-            // background-repeat: no-repeat;
-            // background-position: 50% 0%;
-            // transform: scaleX(-1);
+            height: 100vh;
+            width: 100%;
             margin: 0 auto;
+            
 
             box-shadow: 0 0 0.35rem #d5d8dd;
-            border-radius: 0.25rem;
-
+            background-color:#f7f7f7; 
+            // border-radius: 0.5rem;
+            
             overflow: hidden;
 
         }
@@ -249,6 +244,7 @@
 
 
                 height: calc(95vw*9/16);
+                height: calc(95vw);
                 width: 95vw;
                 margin: 2rem auto;
             }

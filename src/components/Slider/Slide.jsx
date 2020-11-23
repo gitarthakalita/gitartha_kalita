@@ -13,10 +13,10 @@ const Slide = ({ content }) => {
                 height:100%;
                 min-width:100%;
                 background-image: url('${content}');
-                background-size: 100%;
+                background-size: 95%;
                 background-repeat: no-repeat;
-                background-position: 50%  0%; 
-                cursor:pointer                       
+                background-position: 50%; 
+                cursor:pointer;                            
             `
                 }>
 
