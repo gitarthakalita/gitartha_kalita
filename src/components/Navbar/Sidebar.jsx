@@ -25,9 +25,7 @@ const Sidebar = () => {
                         <Link href="/about">
                             <div className="menu-item-text">What I Do</div>
                         </Link>
-                        <Link href="/blog">
-                            <div className="menu-item-text">Blog</div>
-                        </Link>
+                       
                         <Link href="/design-process">
                             <div className="menu-item-text">Design Process</div>
                         </Link>
@@ -40,12 +38,16 @@ const Sidebar = () => {
                             <div className="menu-item-text">Projects</div>
                         </Link>
 
+                        <Link href="/blog">
+                            <div className="menu-item-text">Blog</div>
+                        </Link>
+
                         <Link href="/contact">
                             <div className="menu-item-text">Contact</div>
                         </Link>
 
 
-                        <Link href="learning-space">
+                        <Link href="/knowledge-space">
                             <div className="menu-item-text">Knowledge Space</div>
                         </Link>
                     </div>

@@ -9,7 +9,7 @@ export default class MyDocument extends Document {
                     <meta charSet="utf-8" />
                     <meta name="viewport" content="initial-scale=1.0, width=device-width" />
                     <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
-
+                    <meta name="Description" content="Gitartha Kalita is a Product Designer, Fullstack Developer, Entrepreneur"/>
                     <meta property="og:title" content="Gitartha Kalita" />
                     <meta property="og:description" content="Product Designer ,Product Developer, Entrepreneur" />
                     <meta property="og:type" content="website" />

@@ -7,3 +7,27 @@
         
     }
 }
+
+.contactpage{
+    margin-left: 11rem;
+    height: 100vh;
+
+    .contact-form-container{
+        height: 100%;
+        
+
+        iframe{
+            height: 100%;
+            width: 100%;
+            
+        }
+
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .contactpage{
+        margin:6rem 0;
+        
+    }
+}

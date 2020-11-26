@@ -15,9 +15,7 @@ const Navbar = () => {
                     <Link href="/about">
                         <div className="menu-item">What I Do</div>
                     </Link>
-                    <Link href="/blog">
-                        <div className="menu-item">Blog</div>
-                    </Link>
+                  
                     <Link href="/design-process">
                         <div className="menu-item">Design Process</div>
                     </Link>
@@ -30,12 +28,16 @@ const Navbar = () => {
                         <div className="menu-item">Projects</div>
                     </Link>
 
+                    <Link href="/blog">
+                        <div className="menu-item">Blog</div>
+                    </Link>
+
                     <Link href="/contact">
                         <div className="menu-item">Contact</div>
                     </Link>
 
 
-                    <Link href="learning-space">
+                    <Link href="/knowledge-space">
                         <div className="menu-item">Knowledge Space</div>
                     </Link>
 
@@ -49,7 +51,7 @@ const Navbar = () => {
                 </div>
 
                 <div className="sidebar">
-                    <Sidebar/>
+                    <Sidebar />
                 </div>
             </div>
         </div>

@@ -9,13 +9,6 @@
         height: 100%;
         width: 100%;
 
-        // hr{
-        //     width: 80%;
-        //     margin: 0 auto;
-        //     border-top: 0.25rem solid #111111;
-        //     padding: 0;
-        // }
-
         .about--header {
             height: 100vh;
             width: 100%;
@@ -161,14 +154,14 @@
             width: 100%;
             display: grid;
             place-items: start center;
-            margin: 10rem 0;
+            margin-top: 5rem;
 
 
             .about--content__wrapper {
                 width: 80%;
                 height: 100%;
 
-             
+
 
 
                 // About Design System
@@ -177,12 +170,14 @@
                     height: 100%;
                     width: 100%;
                     display: grid;
-                    grid-template-rows: auto 25rem;
+                    grid-template-rows: 20rem auto;
                     gap: 0.5rem;
                     place-items: center;
+                    margin-top: 10rem;
+
                     .image {
-                        height:100%;
-                        width: 100%;                       
+                        height: 90%;
+                        width: 100%;
                         background-image: url(/assets/UX-product-dev-flow.jpg);
                         background-size: contain;
                         background-position: 50%;
@@ -190,26 +185,29 @@
                     }
 
                     .content {
-                        
+
                         height: 100%;
-                        width: 80%;
+                        width: 100%;
 
                         background-color: #e9eaf0;
+                        background: linear-gradient(45deg,#fdfbfb,#ebedee);
 
                         display: grid;
-                        place-items: start center ;
-                        padding: 5rem;
-                        h1{
+                        place-items: start center;
+                        padding: 3rem 5rem;
+
+                        h1 {
                             font-size: 3rem;
                             text-align: center;
                             line-height: 4.5rem;
                         }
-                        p{
+
+                        p {
                             font-size: 1.8rem;
                             line-height: 3rem;
                             font-family: 'Roboto Slab', serif;
 
-                            a{
+                            a {
                                 color: #6bd68f;
                             }
                         }
@@ -220,57 +218,137 @@
 
                 // About Services Card
 
-                .about-service{
-                    height: 95%;
+                .about-service {
+                    height: 85%;
                     width: 100%;
                     display: grid;
-                    grid-template-rows: 50vh 1fr;
+                    grid-template-rows: 1fr 50vh;
                     gap: 5rem;
-                    padding: 2rem 0;     
-                    place-items: center;                           
+                    padding: 0;
+                    place-items: center;
+                    margin-top: 15rem;
 
-                    .service-card__wrapper{
+                    .service-card__wrapper {
                         width: 100%;
                         height: 100%;
                         display: grid;
                         grid-template-columns: 1fr 1fr 1fr 1fr;
                         grid-template-rows: 100%;
                         gap: 1.5rem;
-                        
+
                     }
 
                     .content {
-                        
+
                         height: 100%;
-                        width: 80%;
+                        width: 100%;
 
                         background-color: #e9eaf0;
+                        background: linear-gradient(45deg,#fdfbfb,#ebedee);
 
                         display: grid;
-                        place-items: start center ;
-                        padding: 5rem;
-                        h1{
+                        place-items: start center;
+                        padding: 3rem 5rem;
+
+                        h1 {
                             font-size: 3rem;
                             text-align: center;
                             line-height: 5rem;
 
                         }
-                        p{
+
+                        p {
                             font-size: 1.8rem;
                             line-height: 3rem;
                             font-family: 'Roboto Slab', serif;
 
-                            a{
+                            a {
                                 color: #6bd68f;
                             }
                         }
                     }
                 }
 
+                // .about-contact {
+                //     height: 100%;
+                //     // background-color: #1a30af;
+
+                //     display: grid;
+                //     place-content: center;
+
+                //     color: #1a30af;
+                //     color: #fff;
+
+                //     h1 {
+                //         font-size: 4rem;
+                //         margin-bottom: 5rem;
+                //     }
+
+                //     .MuiButtonBase-root {
+                //         color: #1a30af;
+                //         border-color: #1a30af;
+                //         color: #fff;
+                //         border-color: #fff;
+                //         width: 18rem;
+                //         margin: 0 auto;
+
+                //         font-size: 1.6rem;
+                //     }
+                // }
+
+            }
+        }
+
+        .contact--container {
+            height: 80vh;
+            
+            background: linear-gradient(135deg,#667eea,#764ba2);
+            margin-top: 15rem;
+
+            width: 100%;
+            display: grid;
+            place-items: start center;
+
+            .about--content__wrapper {
+                width: 80%;
+                height: 100%;
+
+                .about-contact {
+                    height: 100%;
+                    // background-color: #1a30af;
+
+                    display: grid;
+                    place-content: center;
+
+                    color: #1a30af;
+                    color: #fff;
+
+                    h1 {
+                        font-size: 4rem;
+                        margin-bottom: 5rem;
+                    }
+
+                    .MuiButtonBase-root {
+                        color: #1a30af;
+                        border-color: #1a30af;
+                        color: #fff;
+                        border-color: #fff;
+                        width: 18rem;
+                        margin: 0 auto;
+
+                        font-size: 1.6rem;
+                    }
+                }
+
+
             }
         }
     }
 }
+
+// .blue-bg {
+//     background-color: #1a30af;
+// }
 
 
 
@@ -281,12 +359,13 @@
 
 
         .aboutpage__wrapper {
-            hr{
+            hr {
                 width: 95%;
                 margin: 0 auto;
                 border-top: 0.25rem solid #2a3158;
-                
+
             }
+
             .about--header {
                 height: 95vh;
 
@@ -346,76 +425,115 @@
                 }
             }
 
-            .about--content{
+            .about--content {
                 height: 90vh;
                 width: 100%;
-                margin: 5rem 0;
+                margin: 10rem 0 0 0;
 
-                .about--content__wrapper{
+                .about--content__wrapper {
                     height: 100%;
                     width: 95%;
 
-                    .about-design-system{
-                        grid-template-rows: auto 35rem;
-                        .content{
+                    .about-design-system {
+                        grid-template-rows: 35rem auto;
+
+                        margin-top: 0;
+
+                        .content {
                             padding: 2rem 2rem;
                             width: 100%;
-                            h1{
+
+                            h1 {
                                 width: 100%;
                                 font-size: 2.4rem;
                                 text-align: left;
                             }
-                            p{
+
+                            p {
                                 font-size: 1.6rem;
                                 line-height: 2.6rem;
                             }
-                          
+
                         }
                     }
+
                     // About Service Card
 
 
-                .about-service{
-                    height: 90%;
-                    width: 100%;
-                    display: grid;
-                    grid-template-rows: 60vh 1fr;
-                    gap: 1rem;
-                                              
-
-                    .service-card__wrapper{
+                    .about-service {
+                        height: 90%;
                         width: 100%;
-                        height: 100%;
-                        display: flex;
-                        overflow-x: scroll;
+                        display: grid;
+                        grid-template-rows: 1fr 60vh;
+                        gap: 1rem;
+                        margin-top: 0;
 
-                        padding: 0.1rem;
-                        
+
+                        .service-card__wrapper {
+                            width: 100%;
+                            height: 80%;
+                            padding: 0.1rem;
+                            display: flex;
+                            overflow-x: scroll;
+
+
+
+
+                        }
+
+                        .content {
+                            padding: 2rem 2rem;
+                            width: 100%;
+
+                            h1 {
+                                width: 100%;
+                                font-size: 2.4rem;
+                                text-align: left;
+                            }
+
+                            p {
+                                font-size: 1.6rem;
+                                text-align: left;
+                                width: 100%;
+                            }
+
+                        }
                     }
 
-                    .content{
-                        padding: 5rem 2rem;
-                        width: 100%;
-                        h1{
-                            width: 100%;
-                            font-size: 2.4rem;
-                            text-align: left;
-                        }
-                        p{
-                            font-size: 1.6rem;                        
-                            text-align: left;
-                            width: 100%;
-                        }
-                      
+                    .about-contact {
+                        height: 100%;
+                        margin: 0;
                     }
                 }
+
+
+            }
+
+            .contact--container {
+                height: 80vh;
+                margin: 0;
+
+                .about--content__wrapper {
+                    height: 100%;
+                    width: 95%;
+
+                    .about-contact {
+                        height: 100%;
+                        margin: 0;
+                    }
                 }
             }
-    
+
+
+
         }
 
 
-       
+
+
+
 
     }
+
+
 }

@@ -1,9 +1,13 @@
-import Link from 'next/link'
+
+import { Button } from '@material-ui/core';
+import Link from 'next/link';
 import React from 'react'
 import AboutServiceCard from '../../src/components/AboutServiceCard/AboutServiceCard';
 import JellyFish from '../../src/components/JellyFish/JellyFish'
 import Layout from '../../src/components/Layout/Layout';
 import {SERVICE_CARD_DATA} from '../../src/data/SERVICE_CARD_DATA';
+
+
 
 const About = () => {
     return (
@@ -54,15 +58,17 @@ const About = () => {
                     <div className="about--content ">
                         <div className="about--content__wrapper">
                             <div className="about-design-system">
-                                <div className="item image"></div>
-                                <div className="item content">
+                            <div className="item content">
                                     <h1>
                                         User Experience  Design Process
                                     </h1>
                                     <p>
-                                        Having a design process in place provides me a Framework on how I tackle problems by breaking it down into a series of interconnected systems. <a href="/design-process">Learn More</a>  about both my UX Design Process and Application Development Process.
+                                        Having a design process in place provides me a Framework on how I tackle problems by breaking it down into a series of interconnected systems. <a href="/design-process">Learn More</a>  about both  UX Design Process and Application Development Process.
                                     </p>
                                 </div>
+                                
+                                <div className="item image"></div>
+                    
                             </div>
                         </div>
                     </div>
@@ -72,6 +78,12 @@ const About = () => {
                     <div className="about--content">
                         <div className="about--content__wrapper">
                             <div className="about-service">
+                            <div className="item content">
+                                    <h1>Services</h1>
+                                    <p>
+                                        You can click  <a href="/services">Here</a> to learn more  about the services I offer.
+                                    </p>
+                                </div>
                                 <div className="item service-card__wrapper">
                                     {
                                         SERVICE_CARD_DATA.map((item,index) => (
@@ -82,20 +94,18 @@ const About = () => {
                                         ))
                                     }
                                 </div>
-                                <div className="item content">
-                                    <h1>Services</h1>
-                                    <p>
-                                    <a href="/services">Learn More</a>  about services I offer.
-                                    </p>
-                                </div>
+                                
 
                             </div>
                         </div>
                     </div>
-                    <div className="about--content">
+                    <div className="about--contents contact--container">
                         <div className="about--content__wrapper">
                             <div className="about-contact">
-
+                                <h1>Ready to talk ?</h1>
+                                <Link href="/contact"> 
+                                <Button variant="outlined">Get In Touch</Button>
+                                </Link>
                             </div>
                         </div>
                     </div>

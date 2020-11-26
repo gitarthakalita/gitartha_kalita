@@ -39,7 +39,7 @@ const Arrow = ({ direction, handleClick }) => {
       }
     `}
     >
-      {direction === 'right' ? <img src="/assets/right-arrow.svg" /> : <img src="/assets/left-arrow.svg" />}
+      {direction === 'right' ? <img src="/assets/right-arrow.svg" alt="right-arrow" /> : <img src="/assets/left-arrow.svg" alt="left-arrow" />}
     </div>
   )
 }

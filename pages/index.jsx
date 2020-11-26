@@ -24,7 +24,7 @@ const Home = ({ allPosts }) => {
                 <h1> Gitartha Kalita</h1>
               </div>
               <div className="content--identity">
-                <h2>Entrepreneur</h2>
+                {/* <h2>Entrepreneur</h2> */}
                 <h2>Fullstack Developer</h2>
                 <h2>Product Designer</h2>
                 <h2>Artificial Intelligence Enthusiast</h2>
